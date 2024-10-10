@@ -11,7 +11,7 @@ pdf_file = r'C:\Labels\TYA_.pdf'
 # Full path to SumatraPDF.exe
 sumatra_path = r'C:\Program Files\SumatraPDF\SumatraPDF.exe'
 
-# Command to print the PDF using SumatraPDF
+# Command to print the PDF using SumatraPDF and switch to landscape
 command = f'"{sumatra_path}" -print-to-default -print-settings "landscape" "{pdf_file}"'
 
 # Path to the lock file
